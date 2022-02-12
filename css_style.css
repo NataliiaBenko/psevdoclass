@@ -1,0 +1,31 @@
+.first::first-letter{
+    color: red;
+    font-style: italic;
+}
+.size{
+    font-size: 30px;
+}
+.second::first-line{
+    color: red;
+    font-style: italic;
+}
+.third p::selection{
+    background: green;
+    color: white;
+}
+.fourth p::before{
+    content: "Начало: ";
+    color: red;
+}
+.fourth p::after{
+    content: " :конец!";
+    color: green;
+}
+
+ul li:not(.digit){
+    color: red;
+}
+
+ ul li:not(.one, .digit){
+color: green;
+}
