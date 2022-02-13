@@ -29,3 +29,35 @@ ul li:not(.digit){
  ul li:not(.one, .digit){
 color: green;
 }
+ .ads{
+     display: flex;
+     /*justify-content: space-between;*/
+ }
+.picture{
+    display: flex;
+    padding-right: 30px;
+    height: 20%;
+}
+.QA a {
+    color: deeppink;
+}
+.font{
+    font-style: normal;
+    font-weight: normal;
+    color: blue;
+    margin-bottom: 10px;
+}
+
+.line{
+    border-right: 2px solid #ccc;
+    margin-right: 20px;
+    padding-right: 50px;
+    height: 200px;
+}
+.app{
+    height: 20%;
+    padding-right: 5px;
+}
+.color{
+    color: grey;
+}
